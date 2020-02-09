@@ -1,0 +1,95 @@
+/*
+===============================
+===       BREAKPOINTS       ===
+===============================
+*/
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// breakpoints para typi
+$breakpoints: (
+  xs: map-get($grid-breakpoints, xs),
+  sm: map-get($grid-breakpoints, sm),
+  md: map-get($grid-breakpoints, md),
+  lg: map-get($grid-breakpoints, lg),
+  xl: map-get($grid-breakpoints, xl),
+  xxl: map-get($grid-breakpoints, xxl),
+);
+
+// breakpoint aliases
+$mobile-large: ">=sm";
+$tablet: ">=md";
+$desktop: ">=lg";
+$desktop-large: ">=xl";
+$desktop-xlarge: ">=xxl";
+$only-mobile-small: "<sm";
+$only-mobile: "<md";
+$only-mobile-tablet: "<lg";
+$only-down-desktop: "<xl";
+
+/*
+===============================
+===    PALETA DE COLORES    ===
+===============================
+*/
+
+$page-bg-color: #141414;
+$font-color: white;
+$footer-color: #808080;
+
+/*
+===============================
+===      GROSOR FUENTES     ===
+===============================
+*/
+
+$bold-weight: bold;
+
+/*
+===============================
+===         FUENTES         ===
+===============================
+*/
+
+$icon-font-family: "icon-font";
+$font-family-base: "netflix-sans", Arial;
+
+$control-height: rem(48px);
+
+/*
+===============================
+===      TAMAÑO FUENTES     ===
+===============================
+*/
+$font-hero: 60px;
+$font-h1: 48px;
+$font-h2: 35px;
+$font-h3: 24px;
+
+$font-rivendell: 40px;
+$font-large: 20px;
+$font-base: 16px;
+$font-small: 13px;
+$font-xsmall: 11px;
+
+/*
+===============================
+===         MÁRGENES        ===
+===============================
+*/
+
+$spacing: (
+  tiny: 6px,
+  small: 12px,
+  base: 24px,
+  medium: 36px,
+  large: 48px,
+  big: 72px,
+);
