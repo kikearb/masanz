@@ -2,6 +2,7 @@ footer {
   max-width: 1000px;
   margin: 0 auto;
 
+  font-size: $font-small;
   color: $footer-color;
   //Color específico del separador entre el body y el footer
   border-top: 1px solid #e6e6e6;
@@ -9,10 +10,15 @@ footer {
 
 .footer-title {
   font-size: $font-base;
-  margin-bottom: $spacing(medium);
+  // margin-bottom: $spacing(medium);
 }
 
-.titulo-footer a {
+.footer-title a {
   text-decoration: none;
   color: $footer-color;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
