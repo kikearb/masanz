@@ -1,16 +1,18 @@
 footer {
-  max-width: 1000px;
-  margin: 0 auto;
-
   font-size: $font-small;
   color: $footer-color;
   //Color específico del separador entre el body y el footer
-  border-top: 1px solid #e6e6e6;
+  border-top: 8px solid #222;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px 45px;
 }
 
 .footer-title {
   font-size: $font-base;
-  // margin-bottom: $spacing(medium);
 }
 
 .footer-title a {
@@ -18,7 +20,27 @@ footer {
   color: $footer-color;
 }
 
-.footer-container {
+.footer-title a:hover {
+  outline: none;
+}
+
+.footer-content {
   display: flex;
   justify-content: space-between;
+  margin-top: 24px;
+}
+
+.select-languages {
+  padding: 13px 26px;
+
+  color: $footer-color;
+  border: 1px solid #333333;
+  background: transparent;
+
+  outline: none;
+}
+
+.select-languages--option {
+  color: $footer-color;
+  background: transparent;
 }

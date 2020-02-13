@@ -2,16 +2,19 @@ import React from "react"
 
 const Footer = () => (
   <footer>
-    <Contacto />
-    <Contenido />
+    <div className="footer-container">
+      <Contacto />
+      <Contenido />
+      <Idiomas />
+    </div>
   </footer>
 )
 
 const Contacto = () => (
   <div className="footer-title">
-    ¿Preguntas? LLama al
+    ¿Preguntas? Llama al
     <a
-      className="margin-left-sm"
+      className="margin-left-xs"
       href="900 866 616"
       alt="Teléfono de contacto de Netflix"
     >
@@ -21,7 +24,7 @@ const Contacto = () => (
 )
 
 const Contenido = () => (
-  <div className="footer-container">
+  <div className="footer-content">
     <div>
       <p>Preguntas frecuentes</p>
       <p>Inversores</p>
@@ -48,6 +51,15 @@ const Contenido = () => (
       <p>Avisos legales</p>
     </div>
   </div>
+)
+
+const Idiomas = () => (
+  <select name="select-languages" className="margin-top-m select-languages">
+    <option className="select-languages--option" value="espanol" selected>
+      Español
+    </option>
+    <option value="ingles">Inglés</option>
+  </select>
 )
 
 export default Footer
