@@ -1,13 +1,13 @@
 // Unclassed HTML elements (type selectors)
 
 html {
-  background-color: $page-bg-color;
+  background-color: $page-bg-color !important;
   -webkit-print-color-adjust: exact; /*stylelint-disable-line*/
 }
 
 body {
-  font-family: $font-family-base;
-  color: $font-color;
+  font-family: $font-family-base !important;
+  color: $font-color !important;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
