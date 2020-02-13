@@ -23,6 +23,10 @@ a {
   -webkit-appearance: none; /*stylelint-disable-line*/
 }
 
+p {
+  margin-bottom: spacing(none) !important;
+}
+
 [class^="col-"] {
   box-sizing: border-box;
   // padding: 0 !important;
