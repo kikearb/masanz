@@ -5,7 +5,8 @@ const Footer = () => (
     <div className="footer-container">
       <Contacto />
       <Contenido />
-      <Idiomas />
+      <button className="button">Código de servicio</button>
+      <p>© 1997-2020 Netflix, Inc.</p>
     </div>
   </footer>
 )
@@ -51,15 +52,6 @@ const Contenido = () => (
       <p>Avisos legales</p>
     </div>
   </div>
-)
-
-const Idiomas = () => (
-  <select name="select-languages" className="margin-top-m select-languages">
-    <option className="select-languages--option" value="espanol" selected>
-      Español
-    </option>
-    <option value="ingles">Inglés</option>
-  </select>
 )
 
 export default Footer

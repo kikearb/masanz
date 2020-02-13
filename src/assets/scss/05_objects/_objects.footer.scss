@@ -28,19 +28,21 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-.select-languages {
-  padding: 13px 26px;
-
-  color: $footer-color;
-  border: 1px solid #333333;
-  background: transparent;
-
-  outline: none;
+@media (max-width: 768px) {
+  .footer-content {
+    display: block;
+  }
+  .footer-content div:not(:first-child) {
+    margin-top: 10px;
+  }
 }
 
-.select-languages--option {
-  color: $footer-color;
+.button {
   background: transparent;
+  color: #808080;
+  border: solid 1px #808080;
+  margin-bottom: 6px;
 }
