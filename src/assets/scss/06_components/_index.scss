@@ -1,0 +1,20 @@
+h1{
+    margin: 10px;
+}
+section{
+    display: flex;
+    padding: 0 35px 0 35px;
+    & div{
+        margin: 10px;
+    }
+    & div img{
+        width: 400px;
+        height: 200px;
+        border-radius: 2px;
+        &:hover{
+            transform: scale(1.2) rotate(360deg);
+            transition: all 0.5s ease-in-out;
+            box-shadow: 0 0 10px 0 white;
+        }
+    }
+}
