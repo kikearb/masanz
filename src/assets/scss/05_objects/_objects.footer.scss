@@ -1,0 +1,48 @@
+footer {
+  font-size: $font-small;
+  color: $footer-color;
+  //Color específico del separador entre el body y el footer
+  border-top: 8px solid #222;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px 45px;
+}
+
+.footer-title {
+  font-size: $font-base;
+}
+
+.footer-title a {
+  text-decoration: none;
+  color: $footer-color;
+}
+
+.footer-title a:hover {
+  outline: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    display: block;
+  }
+  .footer-content div:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+.button {
+  background: transparent;
+  color: #808080;
+  border: solid 1px #808080;
+  margin-bottom: 6px;
+}
