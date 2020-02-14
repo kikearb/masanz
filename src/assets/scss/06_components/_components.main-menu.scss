@@ -1,0 +1,18 @@
+.main-menu {
+  font-size: rem(14px);
+}
+
+.main-menu__option {
+  color: #e5e5e5;
+  @include horizontal-margin(rem(spacing(small)));
+
+  &:hover {
+    cursor: pointer;
+    color: $font-color;
+  }
+}
+
+.main-menu__option--active {
+  color: $font-color;
+  font-weight: bold;
+}

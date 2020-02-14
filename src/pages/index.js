@@ -2,9 +2,7 @@ import React from "react"
 
 import "../assets/scss/style.scss"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import * as astronaut from "../assets/images/gatsby-astronaut.png"
 
 const IndexPage = () => (
   <Layout>
