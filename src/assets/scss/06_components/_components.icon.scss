@@ -1,0 +1,22 @@
+.icon {
+  font-family: $icon-font-family;
+}
+
+.icon--logo {
+  color: $primary;
+  font-weight: normal;
+  
+  &::before {
+    content: '\e5d0';
+  }
+}
+
+.icon--search {
+  &::before {
+    content: '\e636';
+  }
+}
+
+.icon--big {
+  font-size: 25px;
+}

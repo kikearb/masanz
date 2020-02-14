@@ -3,6 +3,7 @@
 html {
   background-color: $page-bg-color !important;
   -webkit-print-color-adjust: exact; /*stylelint-disable-line*/
+  font-size: 100%;
 }
 
 body {
@@ -21,6 +22,8 @@ a {
   -webkit-tap-highlight-color: transparent; /*stylelint-disable-line*/
   -moz-appearance: none; /*stylelint-disable-line*/
   -webkit-appearance: none; /*stylelint-disable-line*/
+  color: $font-color;
+  text-decoration: none !important;
 }
 
 p {
